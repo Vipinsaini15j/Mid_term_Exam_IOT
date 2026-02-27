@@ -3,39 +3,6 @@
 # roll No : 24IMAI007
 # Question 3:
 
-'''
-design and implement a real time object detection alert system using 
-openCV and MQTT 
-Scenario 
-a security camera continously monitors a restricated area whenever a human face is detected in the video stream, an alert message must be 
-puvlislhed to a monitorning system using MQTT protocol
-
-Requirements
-1 use OpenCV to:
-capture live video from a camera
-perform real- time face detection 
-
-2 Use MQTT protocol to
-publish an alert message when a face is detectd 
-subscribe to the alert topic 
-display recieved alert messages in real time 
-
-3. implement 
-publisher program (openCV + MQTT integratio)
-Subscriber program (MQTT client)
-
-4. the system must operate in near real time and handle events efficiently
-
-Evalution will be based on 
-correct OpenCV integration
-Proper MQTT publish subscribe mechanism
-code structure and clarity 
-real time processing efficiency
-
-
-
-'''
-
 # publisher (OpenCV + MQTT integration)
 
 
